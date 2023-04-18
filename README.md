@@ -2,10 +2,6 @@
 
 > 这里是Auto-GPT中文项目- 同步fork Auto-GPT   Auto-GPT修改了分支规则，Fork同步于Stable最新分支
 
-![gzh](docs/imgs/gzh.png)
-
-### 公众号<阿杰的人生路>回复"Auto-GPT"加入群聊，共同探讨更多玩法
-
 ### 中文版Demo :
 
 ![Demo video](docs/imgs/demo.gif)
@@ -85,13 +81,14 @@ pip install -r requirements.txt
 - 重命名`.env.template`为`.env` 注意`.env.template`为隐藏文件，如果找不到就百度下你电脑window/mac如何显示隐藏文件。
 - 填写您的`OPENAI_API_KEY`. 找到OPENAI_API_KEY=. 在'='之后，输入您唯一的 OpenAI API 密钥（不带任何引号或空格）。
 - 如果您打算使用语音模式，请`ELEVEN_LABS_API_KEY`也填写您的。
+- 根据自己需要，修改.env文件，这样你会得到更好的体验。
 
   - 从以下网址获取您的 OpenAI API 密钥： https: [//platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)。
   - 从[https://elevenlabs.io](https://elevenlabs.io/)获取您的 ElevenLabs API 密钥。您可以使用网站上的“个人资料”选项卡查看您的 xi-api-key。
 
 ## 终端代理方法
 
-推荐工具：[【稳定，高速梯子推荐56一年，活动时5折，点击直达】](https://www.hjtnt.pro/auth/register?code=QRY5)
+推荐工具：[【稳定，高速梯子推荐56一年，活动时5折，点击直达】]
 
 Mac 下载 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) 设置 系统代理 增强模式 然后复制终端代理命令 在终端中输入，重启即可
 
@@ -126,7 +123,7 @@ set https_proxy=socks5://127.0.0.1:8484
 python -m autogpt
 ```
 
-2. 在 AUTO-GPT 的每个操作之后，输入“y”来授权命令，“y -N”来运行 N 个连续命令，“n”来退出程序，或者为 AI 输入额外的反馈。
+2. 在 AUTO-GPT 的每个操作之后，输入“y”来授权命令，“y -N”来运行 N 个连续命令，例如，"y -3"来执行连续3个指令。“n”来退出程序，或者为 AI 输入额外的反馈。
 
 ### 日志
 
